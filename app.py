@@ -27,7 +27,7 @@ def create_agent_chain():
     return initialize_agent(tools, chat, agent=AgentType.OPENAI_FUNCTIONS, agent_kwargs=agent_kwargs, memory=memory)
 
 
-st.title("lang chain")
+st.title("島田GPT")
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
